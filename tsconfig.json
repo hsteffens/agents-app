@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "CommonJS",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "noEmit": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "react": [ "./node_modules/@types/react"]
+    },
+    "types": ["jest"],
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["src", "@types/*.d.ts" ]
+}
